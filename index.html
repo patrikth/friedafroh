@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>frieda froh</title>
+        <meta name="description" content="Schöne, selbstgemachte Dinge von frieda froh aus St. Gallen. Häkeln, Nähen und Basteln">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:image" content="https://www.friedafroh.ch/img/elefant_schatten.png"/>
+        <meta name="p:domain_verify" content="590818136b2dceaa3261bcabc7c3fcb8"/>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link href='https://fonts.googleapis.com/css?family=Special+Elite|Open+Sans' rel='stylesheet' type='text/css'>
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script src="js/konami.js"></script>
+        <script type="text/javascript">
+            var easter_egg = new Konami();
+            easter_egg.code = function() {
+                $("#titelbild").attr("src","img/jesus.gif");
+            }
+            easter_egg.load();
+        </script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <p><img src="img/elefant_schatten.png" class="img-responsive center-block" alt="Elefant" id="titelbild"></p>
+            </div>
+            <div class="col-md-6">
+                <h1 class="typewriter text-center">frieda froh</h1>
+                <p></p>
+            </div>
+
+          </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-6">
+<!--          <h2 class="text-center">Facebook</h2>-->
+          <a class="socicon-link" href="https://www.facebook.com/friedafrohch/">
+              <p class="center-block circle"><span class="socicon">b</span></p>
+          </a>
+          <p class="text-center">frieda froh auf Facebook</p>
+        </div>
+        <div class="hidden-lg hidden-md"><hr></div>
+        <div class="col-md-6">
+<!--            <h2 class="text-center">Pinterest</h2>-->
+            <a class="socicon-link" href="https://www.pinterest.com/friedafrohch/">
+                <p class="center-block circle"><span class="socicon">d</span></p>
+            </a>
+            <p class="text-center">frieda froh auf Pinterest</p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <h2 class="text-center">frieda froh kontaktieren</h2>
+                <form id="contactform" role="form" action="/cgi-bin/friedafroh/formmail/FormMail.pl" method="post">
+                <!-- <form id="contactform" role="form">-->
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="name" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" name="email" placeholder="E-Mail Adresse">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" rows="3" name="comment" placeholder="Nachricht"></textarea>
+                    </div>
+                    <input type="hidden" name="subject" value="Kontakt von friedafroh.ch">
+                    <div class="alert alert-success hidden" role="alert">Vielen Dank für deine Nachricht!</div>
+                    <button type="submit" class="btn btn-default">Senden</button>
+                </form>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+      <footer>
+        <p>&copy; frieda froh 2014</p>
+      </footer>
+    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/main.js"></script>
+        <script src="js/jquery.validate.js"></script>
+        <script src="js/jquery.form.js"></script>
+        <script src="js/localization/messages_de.js"></script>
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-1479628-7');ga('send','pageview');
+        </script>
+    </body>
+</html>

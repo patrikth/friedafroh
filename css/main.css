@@ -1,0 +1,84 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+    font-family: "Open Sans";
+    background: #FFF url('../img/seamless_paper_texture.png');
+}
+
+.jumbotron {
+    /*padding-top: 0px;
+    padding-bottom: 0px;*/
+}
+
+img {
+    /*-webkit-filter: drop-shadow(-5px 0px 3px #555);*/
+    /*filter:         drop-shadow(-5px 0px 3px #555);*/
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+}
+
+.typewriter {
+    font-family: "Special Elite";
+	text-shadow: 0px 1px 1px #4d4d4d;
+	color: #222;
+}
+
+.socicon {
+    font-family: 'socicon' !important;
+}
+
+.socicon-link:link, .socicon-link:visited, .socicon-link:hover, .socicon-link:active {
+    text-decoration: none;
+}
+
+.circle
+{
+    width:125px;
+    height:125px;
+    border-radius:50%;
+    font-size:80px;
+    color:#fff;
+    line-height:125px;
+    text-align:center;
+    background:#000;
+}
+
+hr {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+@font-face {
+    font-family: 'socicon';
+    src: url('../fonts/socicon-webfont.eot');
+    src: url('../fonts/socicon-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/socicon-webfont.woff') format('woff'),
+         url('../fonts/socicon-webfont.ttf') format('truetype'),
+         url('../fonts/socicon-webfont.svg#sociconregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
